@@ -14,13 +14,13 @@ Make sure you have at least 0.02 SOL in your wallet.
 
 ## Usage
 
-### Install dependencies
+### 1. Install dependencies
 
 ```bash
 npm install
 ```
 
-### Convert your key
+### 2. Convert your key
 
 > ATTENTION: DON'T SHARE YOUR PRIVATE KEY TO ANYONE!
 
@@ -28,13 +28,12 @@ Normally, the private key in your wallet is the string of base58, you can conver
 
 ```bash
 # paste your private key as `examplePrivateKey` in script. 
-# All packages are official, no need to worry about the security. Remember don't use any online AI assistant.
 node convert-key.js
 ```
 
 This file supports the conversion of the array format, the base58, base64 and hex format. All the format will be converted as the universal array format.
 
-### Mint NFT
+### 3. Mint NFT
 
 Save the `converted-keypair.json` to `~/.config/solana/id.json` (The default path, you can also customize `getKeypairFromFile()`).
 
