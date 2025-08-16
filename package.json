@@ -1,0 +1,30 @@
+{
+  "name": "solana-nft-minter",
+  "version": "1.0.0",
+  "description": "Solana NFT minter using Metaplex",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.0",
+    "@metaplex-foundation/umi": "^0.9.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.1",
+    "@metaplex-foundation/umi-signer-wallet-adapters": "^1.2.0",
+    "@metaplex-foundation/umi-uploader-irys": "^1.2.0",
+    "@solana-developers/helpers": "^2.8.1",
+    "@solana/wallet-adapter-react": "^0.15.39",
+    "@solana/web3.js": "^1.87.6",
+    "bs58": "^6.0.0"
+  },
+  "keywords": [
+    "solana",
+    "nft",
+    "metaplex",
+    "blockchain"
+  ],
+  "author": "",
+  "license": "ISC"
+}
